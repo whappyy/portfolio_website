@@ -1,0 +1,13 @@
+elke pagina een main en aside
+eenvormigheid
+leestekst niet centreren
+afbeeldingen moeten werken
+bootstrap > CSS
+don't use divs bro
+
+Labo 9: JS bibliotheken
+
+in JS zet "var" naar "let"
+
+
+
