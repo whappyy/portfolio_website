@@ -1,0 +1,87 @@
+:root {
+    --c-dark: #011126;
+    --c-primary: #074E8C;
+    --c-light: #aadaf7;
+}
+
+aside{
+    
+}
+a{
+    text-decoration: none;
+    color: var(--c-light);
+}
+.c-item{
+    height: 25rem;
+
+}
+hr{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    }
+
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+aside h5{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.bg-primary-custom {
+    background-color: var(--c-primary);
+}
+.bg-carousel{
+    background-color: var(--c-dark);
+}
+
+footer {
+  background-color: var(--c-primary);
+  color: white;
+  text-align: center;
+}
+
+body {
+    background-color: var(--c-dark);
+    color: white;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, .card-title {
+    color: var(--c-light);
+}
+
+.card {
+    background-color: #ffffff10;
+    color: white;
+    border: 1px solid #ffffff20;
+    display: flex;
+}
+.card-img-top{
+    height: 20rem;
+}
+
+
+.btn-primary, .btn-outline-primary:hover {
+    background-color: var(--c-primary);
+    border-color: var(--c-primary);
+}
+
+.btn-outline-primary {
+    color: var(--c-primary);
+    border-color: var(--c-primary);
+}
+
+.navbar-brand{
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+}
